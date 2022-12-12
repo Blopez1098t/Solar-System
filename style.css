@@ -1,0 +1,117 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+.space{
+  background-image: url(img/pexels-felix-mittermeier-957061.jpg);
+
+  height: 133%; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sun{
+  position: absolute;
+  top: 60%;
+  left: 48%;
+} 
+.mercury{
+position: absolute;
+  top: 60%;
+  left: 48%;
+  animation-name: mercuryorbit;
+  animation: mercuryorbit 4s linear infinite;
+}
+@keyframes mercuryorbit {
+    from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+.venus{
+position: absolute;
+  top: 60%;
+  left: 48%;
+  animation-name: venusorbit;
+  animation: venusorbit 7s linear infinite;
+  animation-delay: ;
+}
+@keyframes venusorbit {
+ from { transform: rotate(0deg) translateX(155px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(155px) rotate(-360deg); }
+
+}
+.earth{
+position: absolute;
+  top: 60%;
+  left: 48%;
+  animation-name: earthorbit;
+  animation: earthorbit 9s linear infinite;
+}
+@keyframes earthorbit {
+ from { transform: rotate(0deg) translateX(220px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(220px) rotate(-360deg); }
+
+}
+.mars{
+position: absolute;
+  top: 60%;
+  left: 48%;
+  animation-name: marsorbit;
+  animation: marsorbit 12s linear infinite;
+}
+@keyframes marsorbit {
+ from { transform: rotate(0deg) translateX(280px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(280px) rotate(-360deg); }
+
+}
+.jupiter{
+position: absolute;
+  top: 60%;
+  left: 48%;
+  animation-name: jupiterorbit;
+  animation: jupiterorbit 17s linear infinite;
+}
+@keyframes jupiterorbit {
+ from { transform: rotate(0deg) translateX(350px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(350px) rotate(-360deg); }
+
+}
+.saturn{
+position: absolute;
+  top: 60%;
+  left: 48%;
+  animation-name: saturnorbit;
+  animation: saturnorbit 20s linear infinite;
+}
+@keyframes saturnorbit {
+ from { transform: rotate(0deg) translateX(440px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(440px) rotate(-360deg); }
+
+}
+.neptune{
+position: absolute;
+  top: 60%;
+  left: 48%;
+  animation-name: neptuneorbit;
+  animation: neptuneorbit 26s linear infinite;
+}
+@keyframes neptuneorbit {
+ from { transform: rotate(0deg) translateX(515px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(515px) rotate(-360deg); }
+
+}
+.uranus{
+position: absolute;
+  top: 60%;
+  left: 48%;
+  animation-name: uranusorbit;
+  animation: uranusorbit 34s linear infinite;
+}
+@keyframes uranusorbit {
+ from { transform: rotate(0deg) translateX(580px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(580px) rotate(-360deg); }
+
+}
